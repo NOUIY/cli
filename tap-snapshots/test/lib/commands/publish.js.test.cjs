@@ -174,7 +174,6 @@ Object {
     "man/man1/npm-fund.1",
     "man/man1/npm-help-search.1",
     "man/man1/npm-help.1",
-    "man/man1/npm-hook.1",
     "man/man1/npm-init.1",
     "man/man1/npm-install-ci-test.1",
     "man/man1/npm-install-test.1",
@@ -209,6 +208,7 @@ Object {
     "man/man1/npm-team.1",
     "man/man1/npm-test.1",
     "man/man1/npm-token.1",
+    "man/man1/npm-undeprecate.1",
     "man/man1/npm-uninstall.1",
     "man/man1/npm-unpublish.1",
     "man/man1/npm-unstar.1",
@@ -391,6 +391,10 @@ Array [
 
 exports[`test/lib/commands/publish.js TAP workspaces all workspaces - some marked private > one marked private 1`] = `
 + workspace-a@1.2.3-a
+`
+
+exports[`test/lib/commands/publish.js TAP workspaces differet package spec > publish different package spec 1`] = `
++ pkg@1.2.3
 `
 
 exports[`test/lib/commands/publish.js TAP workspaces json > all workspaces in json 1`] = `
